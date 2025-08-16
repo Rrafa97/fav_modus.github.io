@@ -1,4 +1,4 @@
-import React, { useState, Suspense } from 'react'
+import { useState, Suspense } from 'react'
 import { Canvas } from '@react-three/fiber'
 import { OrbitControls, Environment } from '@react-three/drei'
 import { useTranslation } from 'react-i18next'
@@ -10,7 +10,7 @@ import './App.css'
 function App() {
   const { t } = useTranslation()
   const [models] = useState([
-    { id: 1, name: 'Montana Watch', path: '/src/assets/montana_watch__free_model/scene.gltf' }
+    { id: 1, name: 'Montana Watch', path: 'https://wsnbh.oss-cn-hangzhou.aliyuncs.com/models/13iubd9b1uwdi/scene.gltf' }
   ])
   const [selectedModel] = useState(models[0])
 

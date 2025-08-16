@@ -57,7 +57,7 @@ const ModelViewer: React.FC<ModelViewerProps> = ({ modelPath }) => {
 }
 
 // Preload common models for better performance
-useGLTF.preload('/src/assets/montana_watch__free_model/scene.gltf')
+useGLTF.preload('https://wsnbh.oss-cn-hangzhou.aliyuncs.com/models/13iubd9b1uwdi/scene.gltf')
 
 // Cleanup function to dispose of geometries and materials
 const disposeObject = (obj: THREE.Object3D) => {
