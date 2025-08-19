@@ -56,7 +56,6 @@ const ModelViewer: React.FC<ModelViewerProps> = ({ modelPath }) => {
   )
 }
 
-// Preload common models for better performance
 useGLTF.preload('https://wsnbh.oss-cn-hangzhou.aliyuncs.com/models/13iubd9b1uwdi/scene.gltf')
 
 // Cleanup function to dispose of geometries and materials

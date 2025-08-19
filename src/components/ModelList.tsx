@@ -96,5 +96,4 @@ const ModelList: React.FC<ModelListProps> = ({
     </div>
   )
 }
-
 export default ModelList
